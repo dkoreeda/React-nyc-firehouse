@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  margin: 5%;
+}
+.flex {
+  display: flex;
+}
+
+.house-detail {
+  margin: 10%;
+  padding: 7%;
+  width: 200px;
+  height: 200px;
+  background-color: #dfd;
+  border-radius: 10px;
+}
+
+.currentHouse {
+  color: rebeccapurple;
+  margin: 1%;
+  padding: 5% 0;
+
+}
+
+.list {
+  list-style: none;
+  width: 500px;
+  height: 600px;
+  overflow: scroll;
+  margin-top: 5%;
+  background-color: #fdd;
+  border-radius: 10px;
+}
+
+.item {
+  padding: 3%;
+  color: rebeccapurple;
+  padding: 5%;
+}
+
+.item:hover {
+  background-color: #ddd;
+}
+
+
